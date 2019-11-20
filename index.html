@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>West shop</title>
+    <title>West Shop - online store of branded clothing, shoes and accessories.</title>
     <!-- page metas -->
-    <meta name="description" content="West shop">
+    <meta name="description" content="West shop - online store of branded clothing, shoes and accessories.">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Abror Anvarov">
@@ -17,13 +17,14 @@
     <link rel="stylesheet" href="vendor/slick/slick.css">
     <link rel="stylesheet" href="vendor/slick/slick-theme.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="vendor/owl.carousel.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- header starts -->
-    <header>
+    <header class="clearfix">
         <div class="logoContainer">
             <a href="index.html" class="headerLogo">
                 <img src="images/logo.png" alt="logo">
@@ -36,17 +37,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#" style="border-bottom-color:#ee5f73;">Men</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="border-bottom-color:#fb56c1;">Women</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="border-bottom-color:#f26a10;">Kids</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="border-bottom-color:#f2c210;">Home & Living</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="border-bottom-color:#0db7af;">Discover</a></li>
+                    <li class="nav-item"><a class="nav-link" href="men.html" style="border-bottom-color:#ee5f73;">Men</a></li>
+                    <li class="nav-item"><a class="nav-link" href="women.html" style="border-bottom-color:#fb56c1;">Women</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="kids.html" style="border-bottom-color:#f26a10;">Kids</a></li>
+                    <li class="nav-item"><a class="nav-link" href="undercons.html" style="border-bottom-color:#f2c210;">Home &
+                            Living</a></li>
+                    <li class="nav-item"><a class="nav-link" href="undercons.html" style="border-bottom-color:#0db7af;">Discover</a>
+                    </li>
                 </ul>
             </div>
         </nav>
         <!-- navigation panel end -->
         <div class="actions d-flex">
-            <a href="#" class="user">
+            <div class="user">
                 <div class="userIcons">
                     <i class="fas fa-user"></i>
                     <span>Profile</span>
@@ -63,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-            </a>
+            </div>
             <a href="#" class="wishlist">
                 <i class="fas fa-clipboard-list"></i>
                 <span>Wishlist</span>
@@ -79,27 +83,348 @@
         </div>
     </header>
     <!-- header ends -->
+    <div class="noteBanner">
+        <p class="note">This web site was created to fulfill Web Technologies module’s
+            requirements and does not represent actual company or service.</p>
+    </div>
     <!-- main content -->
     <main>
-        <div class="container">
-            <section></section>
-            <section></section>
-            <section></section>
-        </div>
+        <section class="hero">
+            <!-- hero slider -->
+            <div class="home-slider owl-carousel">
+                <div class="slider-item js-fullheight">
+                    <div class="overlay"></div>
+                    <div class="container-fluid p-0">
+                        <div class="row d-md-flex no-gutters slider-text align-items-center justify-content-end"
+                            data-scrollax-parent="true">
+                            <img class="one-third order-md-last img-fluid" src="images/westshop.png" alt="">
+                            <div class="one-forth d-flex align-items-center ftco-animate"
+                                data-scrollax=" properties: { translateY: '70%' }">
+                                <div class="text">
+                                    <span class="subheading">#West Shop</span>
+                                    <div class="horizontal">
+                                        <h1 class="mb-4 mt-3">West Shop Collection 2019</h1>
+                                        <p class="mb-4">West Shop - online store of branded clothing, shoes and accessories.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight">
+                    <div class="overlay"></div>
+                    <div class="container-fluid p-0">
+                        <div class="row d-flex no-gutters slider-text align-items-center justify-content-end"
+                            data-scrollax-parent="true">
+                            <img class="one-third order-md-last img-fluid" src="images/bg_1.png" alt="">
+                            <div class="one-forth d-flex align-items-center ftco-animate"
+                                data-scrollax=" properties: { translateY: '70%' }">
+                                <div class="text">
+                                    <span class="subheading">#New Arrival</span>
+                                    <div class="horizontal">
+                                        <h1 class="mb-4 mt-3">Shoes Collection 2019</h1>
+                                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisici asperiores sapiente. Eaque doloribus nobis asperiores eveni assumenda!</p>
+                                        <p><a href="#" class="btn-custom">Discover Now</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item js-fullheight">
+                    <div class="overlay"></div>
+                    <div class="container-fluid p-0">
+                        <div class="row d-flex no-gutters slider-text align-items-center justify-content-end"
+                            data-scrollax-parent="true">
+                            <img class="one-third order-md-last img-fluid" src="images/bg_2.png" alt="">
+                            <div class="one-forth d-flex align-items-center ftco-animate"
+                                data-scrollax=" properties: { translateY: '70%' }">
+                                <div class="text">
+                                    <span class="subheading">#New Arrival</span>
+                                    <div class="horizontal">
+                                        <h1 class="mb-4 mt-3">New Shoes Winter Collection</h1>
+                                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur a, commodi iste neque inventore!</p>
+                                        <p><a href="#" class="btn-custom">Discover Now</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 p-0 feature">
+                        <div class="feature-inner">
+                            <div class="feature-icon">
+                                <img src="images/icon1.png" alt="#">
+                            </div>
+                            <h2>Fast Secure Payments</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-0 feature">
+                        <div class="feature-inner">
+                            <div class="feature-icon">
+                                <img src="images/icon2.png" alt="#">
+                            </div>
+                            <h2>Premium Products</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-0 feature">
+                        <div class="feature-inner">
+                            <div class="feature-icon">
+                                <img src="images/icon3.png" alt="#">
+                            </div>
+                            <h2>Free &amp; fast Delivery</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="logo-area">
+            <div class="container-fluid">
+                <div class="clients_slider owl-carousel">
+                    <div class="item">
+                        <img src="images/companyLogo1.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/companyLogo2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/companyLogo3.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/companyLogo4.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/companyLogo5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="topSelling">
+            <div class="container">
+                <div class="section-title">
+                    <h2>BROWSE TOP SELLING PRODUCTS</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="images/product1.jpg" alt="">
+                                <div class="pi-links">
+                                    <a href="#" class="add-card">
+                                        <i class="fas fa-shopping-bag"></i>
+                                        <span>ADD TO CART</span></a>
+                                    <a href="#" class="wishlist-btn"><i class="far fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <h6>$35,00</h6>
+                                <p>Sportsman Short Sleeve T-shirt</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <div class="tag-sale">ON SALE</div>
+                                <img src="images/product2.jpg" alt="">
+                                <div class="pi-links">
+                                    <a href="#" class="add-card"><i class="fas fa-shopping-bag"></i>
+                                        <span>ADD TO CART</span></a>
+                                    <a href="#" class="wishlist-btn"><i class="far fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <h6>$15,00</h6>
+                                <p>Tunic beige VT1301</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="images/product3.jpg" alt="">
+                                <div class="pi-links">
+                                    <a href="#" class="add-card"><i class="fas fa-shopping-bag"></i>
+                                        <span>ADD TO CART</span></a>
+                                    <a href="#" class="wishlist-btn"><i class="far fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <h6>$55,00</h6>
+                                <p>Holiday Sweater</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="images/product4.jpg" alt="">
+                                <div class="pi-links">
+                                    <a href="#" class="add-card"><i class="fas fa-shopping-bag"></i>
+                                        <span>ADD TO CART</span></a>
+                                    <a href="#" class="wishlist-btn"><i class="far fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <h6>$35,00</h6>
+                                <p>T-shirt for women</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="images/product5.jpg" alt="">
+                                <div class="pi-links">
+                                    <a href="#" class="add-card"><i class="fas fa-shopping-bag"></i>
+                                        <span>ADD TO CART</span></a>
+                                    <a href="#" class="wishlist-btn"><i class="far fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <h6>$85,00</h6>
+                                <p>Set Girls in battle KK1204 brown</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="images/product6.jpg" alt="">
+                                <div class="pi-links">
+                                    <a href="#" class="add-card"><i class="fas fa-shopping-bag"></i>
+                                        <span>ADD TO CART</span></a>
+                                    <a href="#" class="wishlist-btn"><i class="far fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <h6>$35,00</h6>
+                                <p>Black and White Stripes Dress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="images/product7.jpg" alt="">
+                                <div class="pi-links">
+                                    <a href="#" class="add-card"><i class="fas fa-shopping-bag"></i>
+                                        <span>ADD TO CART</span></a>
+                                    <a href="#" class="wishlist-btn"><i class="far fa-heart"></i></i></a>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <h6>$50,00</h6>
+                                <p>Button down blouse MARIBEL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <div class="tag-new">New</div>
+                                <img src="images/product8.jpg" alt="">
+                                <div class="pi-links">
+                                    <a href="#" class="add-card"><i class="fas fa-shopping-bag"></i>
+                                        <span>ADD TO CART</span></a>
+                                    <a href="#" class="wishlist-btn"><i class="far fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <h6>$35,00</h6>
+                                <p>Flamboyant Pink Top </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-5">
+                <button class="site-btn sb-line sb-dark">LOAD MORE</button>
+            </div>
+        </section>
+        <!-- ad banner section -->
+        <section class="adBanner">
+            <div class="fluid-container">
+                <div class="banner set-bg" data-setbg="images/adBanner.jpg"
+                    style="background-image: url(&quot;images/adBanner.jpg&quot;);">
+                    <div class="tag-new">NEW</div>
+                    <span>New Arrivals</span>
+                    <h2>New Summer Trainingwear!</h2>
+                    <a href="#" class="site-btn">SHOP NOW</a>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- main content end -->
     <!-- footer -->
-    <footer>
+    <footer class="site-footer">
         <div class="container">
+            <div class="genericInfo">
+                <div class="shopLinks">
+                    <p>ONLINE SHOPPING</p>
+                    <a href="men.html">Men</a>
+                    <a href="women.html">Women</a>
+                    <a href="kids.html">Kids</a>
+                    <a href="undercons.html">Home &amp; Living</a>
+                    <a href="undercons.html">Discover</a>
+                </div>
+                <div class="usefulLinks">
+                    <p>USEFUL LINKS</p>
+                    <a href="#">Contact Us</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Terms Of Use</a>
+                    <a href="#">Track Orders</a>
+                    <a href="$">Shipping</a>
+                    <a href="$">Cancellation</a>
+                    <a href="$">Returns</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Privacy policy</a>
+                </div>
+                <div class="appExperience">
+                    <p> EXPERIENCE WESTSHOP APP ON MOBILE </p>
+                    <div class="downLinkContainer">
+                        <a href="#"><img class="androidDownLink" src="images/google_play.png"></a>
+                        <a href="#"><img class="iOSDownLink" src="images/apple_store.png"></a>
+                    </div>
+                    <div class="keepInTouch"> KEEP IN TOUCH </div>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="promises">
+                    <div class="promise-item">
+                        <img src="images/original.png" class="promise-icon">
+                        <div><strong>100% ORIGINAL </strong> guarantee for all products at WESTSHOP</div>
+                    </div>
+                    <div class="promise-item">
+                        <img src="images/30.png" class="promise-icon">
+                        <div><strong>Return within 30days </strong>of receiving your order</div>
+                    </div>
+                    <div class="promise-item">
+                        <img src="images/delivery.png" class="promise-icon">
+                        <div><strong>Get free delivery </strong>for every order above $45</div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </footer>
     <!-- footer end -->
     <!-- javascript libraries -->
     <script src="vendor/jquery/jquery-3.4.1.slim.min.js"></script>
+    <script src="vendor/jquery/jquery-3.4.1.min.js"></script>
     <script src="vendor/bootstrap/popper.min.js"></script>
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
     <script src="vendor/slick/slick.min.js"></script>
+    <script src="vendor/owl.carousel.min.js"></script>
+    <script src="vendor/scrollax.min.js"></script>
     <!-- main javascript -->
     <script type="text/javascript" src="js/main.js"></script>
 </body>
