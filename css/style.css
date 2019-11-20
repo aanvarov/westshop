@@ -594,6 +594,62 @@ header {
   background-position-x: center;
   height: 100vh;
 }
+/* men page */
+/* .products-catagories-area {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100% - 320px);
+  flex: 0 0 calc(100% - 320px);
+  width: calc(100% - 320px);
+  max-width: calc(100% - 320px);
+} */
+.amado-pro-catagory{
+  display: flex;
+  flex-wrap: wrap;
+}
+.single-products-catagory {
+  position: relative;
+  z-index: 1;
+  width: 20%;
+  top: 0;
+}
+.single-products-catagory a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+  color: rgb(251, 255, 0);
+}
+.single-products-catagory a img {
+  width: 100%;
+}
+.single-products-catagory .hover-content {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  z-index: 10;
+}
+.single-products-catagory a::after {
+  -webkit-transition-duration: 250ms;
+  transition-duration: 250ms;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: rgba(60,60,60,.7);
+  z-index: 1;
+  opacity: 0;
+  visibility: visible;
+}
+.single-products-catagory:hover a::after, .single-products-catagory:focus a::after {
+  opacity: 1;
+  visibility: visible;
+}
+.single-products-catagory:hover .hover-content p, .single-products-catagory:hover .hover-content h4, .single-products-catagory:focus .hover-content p, .single-products-catagory:focus .hover-content h4 {
+  color: #fff;
+}
 /* women page */
 .way {
   padding: 15px 20px;
