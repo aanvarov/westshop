@@ -707,3 +707,19 @@ header {
 .kids .col {
   flex: 0 0 25%;
 }
+#pad0 {
+  padding: 0!important;
+}
+
+@media (max-width: 768px) {
+
+  .navbar-expand-md .navbar-toggler, .navbar-nav {
+
+      background-color: lightgreen;
+      z-index: 99999999;
+  }
+  footer .container {
+    min-width: 100%;
+    overflow: scroll;
+  }
+}
